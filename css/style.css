@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+button {
+  outline: none;
+  border: none;
+}
+
+.container {
+  width: 1140px;
+  margin: auto;
+}
+
+#header .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 160px;
+}
+#header .header__menu {
+  display: flex;
+}
+#header .header__menu__item {
+  margin: 0 20px;
+}
+#header .header__menu__item .link {
+  font-family: DINPro, sans-serif;
+  font-size: 16px;
+  line-height: 40px;
+  color: #263640;
+}
+#header .header__btn {
+  width: 146px;
+  height: 40px;
+  background: #FF9900;
+  font-family: DINPro, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+
+#dieter .dieter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#dieter .dieter__top {
+  font-family: DINPro, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #929A9F;
+}
+#dieter .dieter__top .dieter__pot {
+  font-family: DINPro, sans-serif;
+  font-size: 32px;
+  line-height: 45px;
+  color: #263640;
+  height: 300px;
+}
+#dieter .dieter__btn__2 {
+  padding: 3% 5%;
+  border-radius: 2px;
+  background: #FF9900;
+  font-family: DINPro, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+
+#unsere .unsere__items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#unsere .unsere__items .unsere__nat {
+  font-family: "DINPro", sans-serif;
+  font-size: 24px;
+  line-height: 44px;
+  color: #263640;
+}
+#unsere .unsere__items .unsere__nat .unsere__mot {
+  font-family: "DINPro", sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  color: #929A9F;
+}
+#unsere .unsere__items__ptn {
+  font-family: "DINPro", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #263640;
+}
+#unsere .unsere__items__ptn__btn {
+  font-family: "DINPro", sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  color: #929A9F;
+}
+#unsere .unsere__items__ptn__btn__but {
+  font-family: "DINPro", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #FF9900;
+}
+
+/*# sourceMappingURL=style.css.map */
